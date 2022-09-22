@@ -1,0 +1,39 @@
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#people{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    width: 80vw;
+
+}
+div{
+    padding: 10px;
+}
+
+.faces{
+    width: 200px;
+    border-radius: 50% 70% 50% 70%;
+}
+
+.street{
+    margin-bottom: -15px;
+}
+
+.birthday{
+    margin-bottom: -15px;
+}
+
+.email{
+    color: rgb(158, 156, 156);
+}
+h1{
+    margin: ;
+}
