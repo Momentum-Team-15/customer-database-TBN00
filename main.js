@@ -28,7 +28,7 @@ function buildDirectory(customerArray) {
         street.innerText = `${customer.location.street.number} ${customer.location.street.name}`;
         location.innerText = `${customer.location.city}, ${nameToAbbr(customer.location.state)} ${customer.location.postcode}`;
         birthday.innerText = `DOB: ${moment(customer.dob.date).format("MMM Do YYYY")}`;
-        registered.innerText = `Customer since: ${moment(customer.registered.date).format("MMM Do YY")}`
+        registered.innerText = `Customer since: ${moment(customer.registered.date).format("MMM Do YYYY")}`
 
         customerDiv.appendChild(face);
         customerDiv.appendChild(name);

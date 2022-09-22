@@ -11,7 +11,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     text-align: center;
-    width: 80vw;
+    width: 1200px;
 
 }
 div{
@@ -35,5 +35,5 @@ div{
     color: rgb(158, 156, 156);
 }
 h1{
-    margin: ;
+    margin-bottom: -10px;
 }
