@@ -16,6 +16,8 @@ function buildDirectory(customerArray) {
         street.classList.add("street");
         email.classList.add("email");
         birthday.classList.add("birthday");
+        
+
 
 
         function capitalize(string) {
