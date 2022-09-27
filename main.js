@@ -1,6 +1,10 @@
 
 const people = document.querySelector("#people");
 
+function capitalize(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 function buildDirectory(customerArray) {
     for (let customer of customerArray) {
         let face = document.createElement('img');
@@ -16,13 +20,6 @@ function buildDirectory(customerArray) {
         street.classList.add("street");
         email.classList.add("email");
         birthday.classList.add("birthday");
-        
-
-
-
-        function capitalize(string) {
-            return string.charAt(0).toUpperCase() + string.slice(1);
-        }
 
         face.src = `${customer.picture.large}`
         email.innerText = `${customer.email}`;

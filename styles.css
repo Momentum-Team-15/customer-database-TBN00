@@ -24,14 +24,6 @@ body{
     border-radius: 55% 75% 55% 75%;
 }
 
-.street{
-    margin-bottom: -15px;
-}
-
-.birthday{
-    margin-bottom: -15px;
-}
-
 .email{
     color: black;
     -webkit-text-fill-color: whitesmoke; 
@@ -47,3 +39,11 @@ h1{
     border-style: ridge;
     border-radius: 10px;
 }
+    
+    .street{
+        margin-bottom: -15px;
+    }
+    
+    .birthday{
+        margin-bottom: -15px;
+    }
